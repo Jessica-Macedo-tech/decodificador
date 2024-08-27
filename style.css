@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Krona+One&family=Montserrat:wght@100..900&family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Krona+One&family=Montserrat:wght@100..900&family=Space+Grotesk&display=swap');
+
+:root{
+
+    --fonte-primaria:"Inter", sans-serif;
+    
+    --cor-primaria: #00008b;
+    --cor-secundaria: #ffebcd;
+    --cor-terciaria: #ffffff;
+    --cor-instru:#495057;
+}
+
+*{
+background:var(--cor-secundaria);
+font-family: var(--fonte-primaria);
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+}
+
+.main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto1{
+    border: none;
+    color: var(--cor-primaria);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{ color: var(--cor-primaria);}
+    .texto1:focus{
+        outline: none;
+    }
+
+
+.texto2{ 
+    background: var(--cor-terciaria);
+    background-image: url(./assets/tecno.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--cor-primaria);
+    margin: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+}
+.texto2:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.bt__descriptografar{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 24px;
+    color:var(--cor-primaria);
+    cursor:pointer ;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;   
+}
+
+.bt__criptografar{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 24px;
+    color:#ffffff;
+    cursor:pointer ;
+    height: 67px;
+    width: 328px;   
+}
+    
+
+.instrucao{
+    color: var(--cor-instru);
+    font-size: 10px;
+}
+
+.rodape{
+    padding: 8px;
+    color: var(--cor-instru);    
+    font-family: var(--fonte-primaria);
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+}
